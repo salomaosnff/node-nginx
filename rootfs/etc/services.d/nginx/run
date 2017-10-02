@@ -1,0 +1,2 @@
+#!/bin/sh
+exec nginx -g "pid /run/nginx.pid; daemon off;";
